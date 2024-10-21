@@ -1,0 +1,62 @@
+/* Basic reset to remove default padding and margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #0d3b4a; /* Background color of the nav bar */
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none; /* Remove bullets from list */
+    display: flex; /* Aligns items in a row */
+    justify-content: center; /* Centers the items horizontally */
+}
+
+.navbar ul li {
+    margin: 0 15px; /* Space between each menu item */
+}
+
+.navbar ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Link text color */
+    padding: 10px 20px; /* Space around link text */
+    display: block; /* Makes the whole area of the link clickable */
+    font-size: 18px; /* Font size */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+.navbar ul li a:hover {
+    background-color: #575757; /* Background color when hovered */
+    border-radius: 5px; /* Slight rounded corners */
+}
+
+/* Main Content */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 2%;
+    font-style: italic;
+    color: deeppink;
+}
+
+.content p {
+    font-size: 20px;
+}
+
+
+img {
+    display: block; /* Make the image a block-level element */
+    margin: 0 auto; /* Center it horizontally */
+    max-width: 50%; /* Scale down if needed */
+    height: auto;
+  }
