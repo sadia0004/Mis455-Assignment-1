@@ -1,0 +1,64 @@
+*{
+    padding: 1%;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgb(252, 225, 248);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+}
+
+h3{
+   padding:1;
+   font-size:40px;
+   font-style: italic;
+   text-align: center;
+   color: crimson;
+}
+
+img{
+    size: 100px;
+    max-width: 30%;
+}
+
+p{
+    border: 2px solid rgb(49, 43, 43);
+    background-color: rgb(227, 237, 237);
+    margin:50px; 
+    padding: 15px;
+    width: 50%;
+
+}
+
+.different-image {
+
+    width: 350px;
+    border: 10px solid rgb(192, 192, 236);
+   
+
+}
+
+.different-image:hover{
+    width: 450px;
+    border: 8px solid rgb(37, 37, 46);
+    border-radius: 50%;
+    box-shadow: 4px 6px 3px darkgrey;
+
+
+}
+
+
+#new-id{
+
+    border: 10px solid rgb(157, 101, 110);
+}
+
+#another-id{
+    border: 10px solid rgb(242, 191, 200);
+}
+
+#id-2{
+    border: 10px solid rgb(159, 4, 32);
+}

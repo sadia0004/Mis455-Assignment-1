@@ -31,7 +31,7 @@
 }
 
 .navbar ul li a:hover {
-    background-color: #575757; /* Background color when hovered */
+    background-color: #1d92cd; /* Background color when hovered */
     border-radius: 5px; /* Slight rounded corners */
 }
 
@@ -43,20 +43,17 @@
 
 .content h1 {
     font-size: 36px;
-    margin-bottom: 20px;
-    margin-top: 2%;
     font-style: italic;
-    color: deeppink;
+    color: rgba(172, 8, 120, 0.839);
 }
 
-.content p {
-    font-size: 20px;
+body{
+    background-color: rgb(247, 227, 241);
 }
-
 
 img {
     display: block; /* Make the image a block-level element */
     margin: 0 auto; /* Center it horizontally */
-    max-width: 50%; /* Scale down if needed */
+    max-width: 100%; /* Scale down if needed */
     height: auto;
   }

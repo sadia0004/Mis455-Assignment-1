@@ -1,0 +1,39 @@
+body{
+    /*background-color: rgb(247, 208, 236);*/
+    margin: 5px;
+    padding: 5px;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 40px;
+    color: darkblue;
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: darkslategrey;
+}
+
+.inner {
+    height: 100%;
+    background-color: rgb(252, 250, 247);
+    width: 100%; 
+    margin: 80px;
+    padding: 30px;
+
+}
+
+img{
+    max-width: 550px;
+}
+#img1{
+    max-width: 100px;
+}
+
+ .outer {
+    display: flex;
+} 
