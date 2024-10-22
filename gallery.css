@@ -1,16 +1,29 @@
 .inner {
-    height: 100px;
+    height: 500px;
     /* border: 3px solid tomato; */
     background-color: bisque;
-    /* width: 200px; */
-    margin: 5px;
-    padding: 15px;
+    width: 350px;
+    margin: 50px;
+    padding: 10px;
 
 }
 
 
 .outer{
     display:grid;
-    grid-template-columns: 1fr 2fr 2fr 1fr ; 
-    /*grid-template-columns: repeat(3, 1fr);*/
+    /*grid-template-columns: 1fr 2fr 2fr 1fr ; */
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-style: unset;
+    color: rgb(66, 4, 123);
+}
+
+.navbar{
+    background-color: rgb(250, 204, 245);
+    padding: 10px;
+
 }
