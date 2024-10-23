@@ -2,6 +2,7 @@ body{
     /*background-color: rgb(247, 208, 236);*/
     margin: 5px;
     padding: 5px;
+    background-color: rgb(246, 228, 238);
 }
 
 h3{
@@ -20,7 +21,7 @@ p{
 
 .inner {
     height: 100%;
-    background-color: rgb(252, 250, 247);
+    background-color:rgb(246, 228, 238) ;
     width: 100%; 
     margin: 80px;
     padding: 30px;
@@ -29,6 +30,7 @@ p{
 
 img{
     max-width: 550px;
+    
 }
 #img1{
     max-width: 100px;
