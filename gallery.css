@@ -1,18 +1,37 @@
 .inner {
-    height: 500px;
-    /* border: 3px solid tomato; */
-    background-color: bisque;
-    width: 350px;
-    margin: 50px;
-    padding: 10px;
+    height: 600px;
+    /*border: 3px solid rgb(61, 60, 59); */
+    background-color: rgb(252, 250, 247);
+    width: 600px;
+    margin: 30px;
+    padding: 20px;
+    
 
+}
+
+.out{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.inne{
+    height: 250px;
+    width: 180px;
+    margin: 10px;
+    margin-top:10px;
+    padding: 1px;
+    
+    /* border: 3px solid tomato; */
+    background-color: rgb(191, 165, 242);
+   
 }
 
 
 .outer{
     display:grid;
     /*grid-template-columns: 1fr 2fr 2fr 1fr ; */
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+   
 }
 
 h3{
@@ -25,5 +44,11 @@ h3{
 .navbar{
     background-color: rgb(250, 204, 245);
     padding: 10px;
+    
 
+}
+
+img{
+    width: 180px;
+    height: 250px;
 }
