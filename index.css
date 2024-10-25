@@ -1,41 +1,41 @@
-/* Basic reset to remove default padding and margins */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Navigation Bar */
+
 .navbar {
-    background-color: #0d3b4a; /* Background color of the nav bar */
+    background-color: #0d3b4a; 
     padding: 10px 0;
+    box-shadow: 10px 8px 5px rgb(113, 4, 89);
 }
 
 .navbar ul {
-    list-style: none; /* Remove bullets from list */
-    display: flex; /* Aligns items in a row */
-    justify-content: center; /* Centers the items horizontally */
+    list-style: none; 
+    display: flex; 
+    justify-content: center;
 }
 
 .navbar ul li {
-    margin: 0 15px; /* Space between each menu item */
+    margin: 0 15px;
 }
 
 .navbar ul li a {
-    text-decoration: none; /* Remove underline from links */
-    color: white; /* Link text color */
-    padding: 10px 20px; /* Space around link text */
-    display: block; /* Makes the whole area of the link clickable */
-    font-size: 18px; /* Font size */
-    font-family: Arial, sans-serif; /* Font style */
+    text-decoration: none;
+    color: white; 
+    padding: 10px 20px; 
+    display: block; 
+    font-size: 20px; 
+    font-family: Arial, sans-serif; 
 }
 
 .navbar ul li a:hover {
-    background-color: #1d92cd; /* Background color when hovered */
-    border-radius: 5px; /* Slight rounded corners */
+    background-color: #1d92cd; 
+    border-radius: 
 }
 
-/* Main Content */
+
 .content {
     padding: 20px;
     text-align: center;
@@ -43,8 +43,8 @@
 
 .content h1 {
     font-size: 36px;
-    font-style: italic;
-    color: rgba(172, 8, 120, 0.839);
+    font-family:monospace;
+    color: rgba(38, 4, 100, 0.839);
 }
 
 body{
@@ -52,8 +52,8 @@ body{
 }
 
 img {
-    display: block; /* Make the image a block-level element */
-    margin: 0 auto; /* Center it horizontally */
-    max-width: 100%; /* Scale down if needed */
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%;
     height: auto;
   }
