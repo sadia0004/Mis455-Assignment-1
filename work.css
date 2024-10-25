@@ -15,7 +15,7 @@ h3{
    font-size:40px;
    font-style: italic;
    text-align: center;
-   color: crimson;
+   color: rgb(139, 4, 112);
 }
 
 img{
@@ -32,28 +32,56 @@ p{
 
 }
 
+
+
 .different-image {
 
     width: 350px;
-    border: 10px solid rgb(192, 192, 236);
+    border: 10px solid rgb(164, 164, 238);
    
+
+}
+
+.dif-image:hover{
+   
+    border-radius: 20%;
+    box-shadow: 4px 6px 3px  rgb(57, 35, 88);;
 
 }
 
 .different-image:hover{
     width: 450px;
-    border: 8px solid rgb(37, 37, 46);
     border-radius: 50%;
-    box-shadow: 4px 6px 3px darkgrey;
+    box-shadow: 4px 6px 3px rgb(1, 5, 92);
 
 
 }
 
+.dif-img:hover{
+    border: 8px solid rgb(56, 56, 194);
+    border-radius: 30%;
+    box-shadow: 4px 6px 3px rgb(88, 3, 71);
+
+}
+.different-img:hover{
+   
+    border-radius: 20%;
+    box-shadow: 4px 6px 3px rgb(29, 1, 23);
+
+}
+
+.dif-pic:hover{
+    border-radius: 10%;
+    box-shadow: 4px 6px 3px rgb(125, 122, 124);
+
+
+}
 
 #new-id{
 
     border: 10px solid rgb(157, 101, 110);
 }
+
 
 #another-id{
     border: 10px solid rgb(242, 191, 200);
